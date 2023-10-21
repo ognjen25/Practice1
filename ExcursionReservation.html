@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="desription" content="This is site for booking viechels and traveling on exkursions troughout the country.">
+      <meta name="keyword" content="Booking, Exkursion, Various fun places">
+      <link rel="icon" href="img/1687062803405.jpg" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+      <link rel="stylesheet" href="style3.css" type="text/css">  
+      <title>Exkursion booking</title>
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="/">
+        <div class="banner">
+          <h1>Exkursion booking</h1>
+        </div>
+        <div class="item">
+            <p>Starting point</p>
+        <select name="Starting point" id="Starting point" >
+            <option value="Hurghada Airport">Hurghada Airport</option>
+            <option value="Hurghadi Airport">Hurghadi Airport</option>
+            <option value="Other">Other(write down below)</option>
+        </select>
+        </div>
+        
+        <div class="item">
+            <label for="request">Request for the excursion:</label>
+            <textarea id="request" name="request" placeholder="Enter your request for the excursion" cols="40" rows="5"></textarea><br>
+          </div>
+        <div class="item">
+            <p>Going to</p>
+            <input type="text" name="going to" placeholder="Place name"/>
+          </div>
+        <div class="item">            
+            <p>Date</p>
+            <input type="date" name="bdate" required/>
+            <i class="fas fa-calendar-alt"></i>
+        </div>
+        <div class="item">
+            <p>Time</p>
+            <input type="time" name="btime" required/>
+        </div>
+        <div class="item">
+            <p>Number Of People</p>
+            <input type="text" name="language"/>
+        </div>
+        <div class="item">
+            <p>Price list:</p>
+          <dl>
+            <ol>
+        <li><dt>Transfer price list for a Private car ( 1-3 peesons )  :</dt></li>
+            <dd>-Hurghada airport to /from Hurghada hotels 15$</dd>
+            <dd>-Hurghada airport to /from Makadi hotels 20$</dd>
+            <dd>-Hurghada airport to /from Safaga city hotels 30$</dd>
+            <dd>-Hurghada airport to /from Sahl Hasheesh hotels 20$</dd>
+            <dd>-Hurghada airport to/from ElGouna hotels 20$</dd>
+
+            <br>
+        <li><dt>Transfer price list for a Private minibus ( to 8 persons) :</dt></li>
+            <dd>-Hurghada airport to /from Hurghada hotels 20$</dd>
+            <dd>-Hurghada airport to /from Makadi hotels 25$</dd>
+            <dd>-Hurghada airport to /from Safaga city hotels 40$</dd>
+            <dd>-Hurghada airport to /from Sahl Hasheesh hotels 25$</dd>
+            <dd>-Hurghada airport to/from ElGouna hotels 25$</dd>
+            <dd> Hurghada airport to /from Somabay 40$. </dd>
+        </ol>
+          </dl>
+        </div>
+        <br>
+         <div class="btn-block">
+          <button type="submit" href="/">Send</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
